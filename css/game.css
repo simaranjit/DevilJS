@@ -1,0 +1,33 @@
+body, #game {
+	height: 100%;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+	background-image:url(../images/clouds.gif);
+
+	/*   background: -webkit-linear-gradient(white, orange); /* For Safari 5.1 to 6.0 */
+    /* background: -o-linear-gradient(white, orange); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(white, orange); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(white, orange); /* Standard syntax (must be last) */
+}
+
+#game {
+	width:100%;
+	text-align:center;
+}
+
+#game {
+	cursor: url('../images/focus.png'), default;
+}
+
+.top-bar {
+	height: 60px;
+	background-color: gray;
+	background-image:       linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
+	background-size:50px 50px;
+	top:0; left:0; color: white;
+}
+
+h1 {
+	margin-bottom:0px;
+}
